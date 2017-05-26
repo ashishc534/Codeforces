@@ -19,9 +19,9 @@ int main()
 		}
 	}
 	sort(v.begin(),v.end());
-	v.erase(unique(v.begin(),v.end()),v.end());
+	v.erase(unique(v.begin(),v.end()),v.end()); //Remove Duplicate Entries.
 	
-	if(v.size()==m)
+	if(v.size()==m) //Check if all bulbs can glow
 	cout<<"YES\n";
 	
 	else
